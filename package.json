@@ -12,9 +12,26 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa-bodyparser": "^4.3.7",
+    "@types/koa-generic-session": "^2.2.1",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-morgan": "^1.0.5",
+    "@types/koa-redis": "^4.0.2",
+    "@types/koa-router": "^7.4.4",
     "concurrently": "^7.4.0",
     "cross-env": "^7.0.3",
     "nodemon": "^2.0.19",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-morgan": "^1.0.1",
+    "koa-onerror": "^4.2.0",
+    "koa-router": "^12.0.0"
   }
 }
